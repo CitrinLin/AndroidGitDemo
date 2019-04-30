@@ -1,7 +1,8 @@
 package com.lincitrin.androidgitdemo;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -14,5 +15,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
+    }
+
+    void testMaster() {
+        Log.d("test","測試 master 功能");
     }
 }
