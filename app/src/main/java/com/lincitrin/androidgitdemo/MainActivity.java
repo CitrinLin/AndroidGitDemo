@@ -20,4 +20,9 @@ public class MainActivity extends AppCompatActivity {
     void testMaster() {
         Log.d("test","測試 master 功能");
     }
+
+    void testBranch() {
+        Log.d("test","測試分支功能");
+    }
+
 }
